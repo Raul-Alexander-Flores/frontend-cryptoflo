@@ -17,8 +17,10 @@ const NFTCard = ({ nft, onProfilePage }) => {
             layout="fill"
             
             alt={`nft ${nft.i}`}
-            width={200}
+            width={220}
             height={200}
+            
+            
           />
         </div>
         <div className="mt-3 flex flex-col">

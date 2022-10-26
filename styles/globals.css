@@ -118,3 +118,13 @@
         opacity: 1;
     }
 }
+.imageBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageUpload{
+    height: 600px;
+    margin: 20px;
+    
+}
