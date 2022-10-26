@@ -15,7 +15,7 @@ const NFTCard = ({ nft, onProfilePage }) => {
           <Image
             src={nft.image || images[`nft${nft.i}`]}
             layout="fill"
-            objectFit="cover"
+            
             alt={`nft ${nft.i}`}
             width={200}
             height={200}

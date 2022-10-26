@@ -68,7 +68,7 @@ const CreateNFT = () => {
                     src={images.upload}
                     width={100}
                     height={100}
-                    objectFit="contain"
+                    
                     alt="upload"
                     className={theme === 'light' ? 'filter invert' : ''}
                   />

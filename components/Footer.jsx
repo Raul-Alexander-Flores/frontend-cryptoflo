@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="flexCenter cursor-pointer">
             <Image
               src={images.logo02}
-              objectFit="contain"
+              
               width={200}
               height={60}
               alt="logo"
@@ -63,7 +63,7 @@ const Footer = () => {
               <div className="mx-2 cursor-pointer" key={index}>
                 <Image
                   src={image}
-                  objectFit="contain"
+                  
                   width={24}
                   height={24}
                   alt="social"

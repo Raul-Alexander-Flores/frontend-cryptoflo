@@ -16,7 +16,7 @@ const CreatorCard = ({ rank, creatorImage, creatorName, creatorEths }) => {
           <Image
             src={creatorImage}
             layout="fill"
-            objectFit="cover"
+            
             alt="creatorName"
             className="rounded-full"
           />
@@ -24,7 +24,7 @@ const CreatorCard = ({ rank, creatorImage, creatorName, creatorEths }) => {
             <Image
               src={images.tick}
               layout="fill"
-              objectFit="contain"
+              
               alt="tick"
             />
           </div>
